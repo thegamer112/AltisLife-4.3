@@ -6,15 +6,15 @@
 */
 class Life_Settings {
     /* Persistent Settings */
-    save_civ_weapons = false; //Allow civilians to save weapons on them?
+    save_civ_weapons = true; //Allow civilians to save weapons on them?
     save_virtualItems = true; //Save Virtual items (all sides)?
 
     /* Revive system settings */
     revive_cops = true; //true to enable cops the ability to revive everyone or false for only medics/ems.
-    revive_fee = 1500; //Revive fee that players have to pay and medics / EMS are rewarded
+    revive_fee = 500; //Revive fee that players have to pay and medics / EMS are rewarded
 
     /* House related settings */
-    house_limit = 5; //Maximum amount of houses a player can own.
+    house_limit = 1; //Maximum amount of houses a player can own.
 
     /* Gang related settings */
     gang_price = 75000; //Price for creating a gang, remember they are persistent so keep it reasonable to avoid millions of gangs.
@@ -23,7 +23,7 @@ class Life_Settings {
 
     /* Player-related systems */
     enable_fatigue = true; //Set to false to disable the ARMA 3 false system.
-    total_maxWeight = 24; //Static variable for the maximum weight allowed without having a backpack
+    total_maxWeight = 30; //Static variable for the maximum weight allowed without having a backpack
     paycheck_period = 5; //Scaled in minutes
 
     /* Impound Variables */
@@ -38,7 +38,7 @@ class Life_Settings {
 
     /* Paycheck Amount */
     paycheck_cop = 500; //Payment for cops
-    paycheck_civ = 350; //Payment for civillians
+    paycheck_civ = 200; //Payment for civillians
     paycheck_med = 450; //Payment for medics
 
     /* Federal Reserve settings */
