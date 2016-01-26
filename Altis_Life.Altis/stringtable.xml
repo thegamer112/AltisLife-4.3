@@ -3592,7 +3592,7 @@
     </Key>
     <Key ID="STR_Item_Rooster">
       <Original>Grilled Rooster</Original>
-      <German>Gegrillter Hähnchen</German>
+      <German>Gegrilltes Hähnchen</German>
       <French>Coq grillé</French>
       <Italian>cazzo alla griglia</Italian>
       <Portuguese>Galo Grelhado</Portuguese>
@@ -5965,7 +5965,7 @@
     </Key>
     <Key ID="STR_MAR_Helicopter_Shop">
       <Original>Helicopter Shop</Original>
-	  <German>Verkäufer für Heli's
+	  <German>Verkäufer für Heli's</German>
       <Portuguese>Loja de Helicopteros</Portuguese>
       <Polish>Sklep lotniczy</Polish>
     </Key>
