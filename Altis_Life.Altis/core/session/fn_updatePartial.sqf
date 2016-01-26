@@ -48,6 +48,10 @@ switch(_mode) do {
 		_packet set[2,CASH];
 		_packet set[4,BANK];
 	};
+
+	case 7: {
+		// Tonic is using for keychain..?
+	};
 };
 
 _packet remoteExecCall ["DB_fnc_updatePartial",RSERV];

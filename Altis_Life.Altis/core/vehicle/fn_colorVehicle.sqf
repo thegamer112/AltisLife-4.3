@@ -1,7 +1,7 @@
 #include "..\..\script_macros.hpp"
 /*
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Reskins the vehicle
 */
@@ -36,10 +36,6 @@ if(!isClass (missionConfigFile >> CONFIG_LIFE_VEHICLES >> _classNameLife)) then 
 _textures = SEL(SEL(M_CONFIG(getArray,CONFIG_LIFE_VEHICLES,_classNameLife,"textures"),_index),2);
 if(isNil "_textures" OR {EQUAL(count _textures,0)}) exitWith {};
 
-//Local to us? Set it's color.
-if(local _vehicle) then {
-	_vehicle SVAR ["Life_VEH_color",_index,true];
-};
+_vehicle SVAR ["Life_VEH_color",_index,true];
 
-waitUntil{!isNil {_vehicle GVAR "Life_VEH_color"}};
 {_vehicle setObjectTexture [_forEachIndex,_x];} foreach _textures;

@@ -9,6 +9,11 @@ class CarShops {
     *            0: Variable to read from
     *            1: Variable Value Type (SCALAR / BOOL /EQUAL)
     *            2: What to compare to (-1 = Check Disabled)
+    *
+    *   BLUFOR Vehicle classnames can be found here: https://community.bistudio.com/wiki/Arma_3_CfgVehicles_WEST
+    *   OPFOR Vehicle classnames can be found here: https://community.bistudio.com/wiki/Arma_3_CfgVehicles_EAST
+    *   Independent Vehicle classnames can be found here: https://community.bistudio.com/wiki/Arma_3_CfgVehicles_GUER
+    *   Civilian Vehicle classnames can be found here: https://community.bistudio.com/wiki/Arma_3_CfgVehicles_CIV
     */
     class civ_car {
         side = "civ";
@@ -94,14 +99,6 @@ class CarShops {
 
     class cop_air {
         side = "cop";
-        vehicles[] = {
-            { "B_Heli_Light_01_F", 75000, { "cAir" }, { "", "", -1 } },
-            { "B_Heli_Transport_01_F", 200000, { "cAir" }, { "life_coplevel", "SCALAR", 3 } }
-        };
-    };
-
-    class cop_airhq {
-        side = "civ";
         vehicles[] = {
             { "B_Heli_Light_01_F", 75000, { "cAir" }, { "", "", -1 } },
             { "B_Heli_Transport_01_F", 200000, { "cAir" }, { "life_coplevel", "SCALAR", 3 } },
@@ -511,7 +508,7 @@ class LifeCfgVehicles {
         storageFee[] = { 1000, 0, 0, 0 };
         garageSell[] = { 950, 0, 0, 0 };
         insurance = 2500;
-        chopShop = 5000;
+        chopShop = 1250;
         textures[] = {
             { "Brown", "cop", {
                 "\A3\Soft_F\Quadbike_01\Data\Quadbike_01_co.paa"
