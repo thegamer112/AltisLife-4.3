@@ -88,7 +88,7 @@ class WeaponShops {
 
          // Markman Rifles
          { "arifle_MXM_F", "", 45000},
-         { "arifle_MXM_Black_F", 50000},
+         { "arifle_MXM_Black_F", "", 50000},
          { "30Rnd_65x39_caseless_mag", "", 200},
          { "30Rnd_65x39_caseless_mag_Tracer", "", 150},
          { "srifle_DMR_01_F", "", 60000},
