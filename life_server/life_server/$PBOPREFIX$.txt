@@ -1,0 +1,6 @@
+///////<HEADER>///////
+prefix=life_server
+Mikero=DePbo.dll
+Pbo Type is: Arma Addon
+Sha: '46CAFE034A6FB31664252AC7C42C5EC79ED31FEF'
+//////</HEADER>//////
