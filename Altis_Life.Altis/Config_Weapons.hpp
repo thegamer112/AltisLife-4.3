@@ -26,7 +26,7 @@ class WeaponShops {
          { "hgun_ACPC2_F", "", 11500 },
          { "9Rnd_45ACP_Mag", "", 100},
          { "hgun_Pistol_heavy_02_F", "", 11500 },
-         { "6Rnd_45ACP_Cylinder", 50},
+         { "6Rnd_45ACP_Cylinder", "", 50},
          { "hgun_Pistol_heavy_01_F", "", 15300},
          { "11Rnd_45ACP_Mag", "", 150}
          
