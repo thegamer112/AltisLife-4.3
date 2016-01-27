@@ -158,8 +158,8 @@ class WeaponShops {
         { "3Rnd_UGL_FlareCIR_F", "", 500},
 		{ "cse_bandage_basic", "Einfache Bandage", 50, 25 },
 		{ "tf_anarc210", "AN/ARC120 40km", 1000, 500 },
-		{ "tf_anarc164", "AN/ARC164 40km", 1000, 500 },
-		{ "tf_mr6000l", "MR6000L 40km", 1000, 500 }
+//		{ "tf_anarc164", "AN/ARC164 40km", 1000, 500 },
+//		{ "tf_mr6000l", "MR6000L 40km", 1000, 500 }
 		};
 	};
 
@@ -192,8 +192,8 @@ class WeaponShops {
         { "30Rnd_9x21_Mag", "", 75 },
 		{ "cse_bandage_basic", "Einfache Bandage", 50, 25 },
 		{ "tf_anprc152", "AN/PRC152 5km", 250, 120 },
-		{ "tf_anprc148jem", "AM/PRC148jem 5km", 250, 120 },
-		{ "tf_fadak", "FADAK 5km", 250, 120 }
+//		{ "tf_anprc148jem", "AM/PRC148jem 5km", 250, 120 },
+//		{ "tf_fadak", "FADAK 5km", 250, 120 }
 		};
 	};
 
@@ -225,8 +225,8 @@ class WeaponShops {
 			{ "Chemlight_green", "", 300 },
 			{ "Chemlight_blue", "", 300 },
 			{ "tf_anprc152", "AN/PRC152 5km", 250, 120 },
-			{ "tf_anprc148jem", "AM/PRC148jem 5km", 250, 120 },
-			{ "tf_fadak", "FADAK 5km", 250, 120 }
+	//		{ "tf_anprc148jem", "AM/PRC148jem 5km", 250, 120 },
+	//		{ "tf_fadak", "FADAK 5km", 250, 120 }
 		};
 	};
 
@@ -268,11 +268,11 @@ class WeaponShops {
 			{ "16Rnd_9x21_Mag", "", 50, -1 },
 			{ "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 125, -1 },
 			{ "tf_anprc152", "AN/PRC152 5km", 250, 120 },
-			{ "tf_anprc148jem", "AM/PRC148jem 5km", 250, 120 },
-			{ "tf_fadak", "FADAK 5km", 250, 120 },
+	//		{ "tf_anprc148jem", "AM/PRC148jem 5km", 250, 120 },
+	//		{ "tf_fadak", "FADAK 5km", 250, 120 },
 			{ "tf_anarc210", "AN/ARC120 40km", 1000, 500 },
-			{ "tf_anarc164", "AN/ARC164 40km", 1000, 500 },
-			{ "tf_mr6000l", "MR6000L 40km", 1000, 500 }
+	//		{ "tf_anarc164", "AN/ARC164 40km", 1000, 500 },
+	//		{ "tf_mr6000l", "MR6000L 40km", 1000, 500 }
         };
     };
 
@@ -345,11 +345,11 @@ class WeaponShops {
 			{ "cse_personal_aid_kit", "Erste Hilfe Kasten", 5, 1 },
 			{ "cse_surgical_kit", "Chirurgen Op-Besteck", 500, 250 },			
 			{ "tf_anprc152", "AN/PRC152 5km", 250, 120 },
-			{ "tf_anprc148jem", "AM/PRC148jem 5km", 250, 120 },
-			{ "tf_fadak", "FADAK 5km", 250, 120 },
+//			{ "tf_anprc148jem", "AM/PRC148jem 5km", 250, 120 },
+//			{ "tf_fadak", "FADAK 5km", 250, 120 },
 			{ "tf_anarc210", "AN/ARC120 40km", 1000, 500 },
-			{ "tf_anarc164", "AN/ARC164 40km", 1000, 500 },
-			{ "tf_mr6000l", "MR6000L 40km", 1000, 500 },	
+//			{ "tf_anarc164", "AN/ARC164 40km", 1000, 500 },
+//			{ "tf_mr6000l", "MR6000L 40km", 1000, 500 },	
             { "ItemGPS", "", 100, 45 },
             { "Binocular", "", 150, -1 },
             { "ToolKit", "", 250, 75 },
