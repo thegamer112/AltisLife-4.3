@@ -157,7 +157,7 @@ class WeaponShops {
         { "3Rnd_UGL_FlareRed_F", "", 500},
         { "3Rnd_UGL_FlareCIR_F", "", 500},
 		{ "cse_bandage_basic", "Einfache Bandage", 50, 25 },
-		{ "tf_anarc210", "AN/ARC120 40km", 1000, 500 },
+		{ "tf_anarc210", "AN/ARC120 40km", 1000, 500 }
 //		{ "tf_anarc164", "AN/ARC164 40km", 1000, 500 },
 //		{ "tf_mr6000l", "MR6000L 40km", 1000, 500 }
 		};
@@ -180,18 +180,7 @@ class WeaponShops {
         { "6Rnd_45ACP_Cylinder", "", 50 },
         { "30Rnd_9x21_Mag", "", 75 },
 		{ "cse_bandage_basic", "Einfache Bandage", 50, 25 },
-        { "hgun_Rook40_F", "", 1500 },
-        { "hgun_Pistol_heavy_02_F", "", 2500 },
-        { "hgun_ACPC2_F", "", 4500 },
-        { "hgun_PDW2000_F", "", 9500 },
-        { "optic_ACO_grn_smg", "", 950 },
-        { "V_Rangemaster_belt", "", 1900 },
-        { "16Rnd_9x21_Mag", "", 25 },
-        { "9Rnd_45ACP_Mag", "", 45 },
-        { "6Rnd_45ACP_Cylinder", "", 50 },
-        { "30Rnd_9x21_Mag", "", 75 },
-		{ "cse_bandage_basic", "Einfache Bandage", 50, 25 },
-		{ "tf_anprc152", "AN/PRC152 5km", 250, 120 },
+		{ "tf_anprc152", "AN/PRC152 5km", 250, 120 }
 //		{ "tf_anprc148jem", "AM/PRC148jem 5km", 250, 120 },
 //		{ "tf_fadak", "FADAK 5km", 250, 120 }
 		};
@@ -219,12 +208,7 @@ class WeaponShops {
 			{ "ItemGPS", "", 100 },
 			{ "ToolKit", "", 250 },
 			//{ "FirstAidKit", "", 150 },
-			{ "cse_bandage_basic", "Einfache Bandage", 50, 25 },
-			{ "Chemlight_red", "", 300 },
-			{ "Chemlight_yellow", "", 300 },
-			{ "Chemlight_green", "", 300 },
-			{ "Chemlight_blue", "", 300 },
-			{ "tf_anprc152", "AN/PRC152 5km", 250, 120 },
+			{ "tf_anprc152", "AN/PRC152 5km", 250, 120 }
 	//		{ "tf_anprc148jem", "AM/PRC148jem 5km", 250, 120 },
 	//		{ "tf_fadak", "FADAK 5km", 250, 120 }
 		};
@@ -238,39 +222,24 @@ class WeaponShops {
         level[] = { "", "", -1, "" };
         items[] = {
             { "arifle_sdar_F", "Taser Rifle", 20000, 7500 },
+			{ "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 125, -1 },
             { "hgun_P07_snds_F", "Stun Pistol", 2000, 650 },
+			{ "16Rnd_9x21_Mag", "Stun Gun Magazine", 50, -1 },
             { "hgun_P07_F", "", 7500, 1500 },
             { "HandGrenade_Stone", "Flashbang", 1700, -1 },
             { "Binocular", "", 150, -1 },
             { "ItemGPS", "", 100, 45 },
             { "ToolKit", "", 250, 75 },
             { "muzzle_snds_L", "", 650, -1 },
-            { "FirstAidKit", "", 150, 65 },
-            { "Medikit", "", 1000, 450 },
 			{ "cse_morphine", "Autoinjektor: Morphine", 50, 25 },
 			{ "cse_bandage_basic", "Einfache Bandage", 50, 25 },			
             { "NVGoggles", "", 2000, 980 },
-            { "16Rnd_9x21_Mag", "", 50, -1 },
-            { "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 125, -1 },
-			{ "arifle_sdar_F", "Taser Rifle", 20000, 7500 },
-			{ "hgun_P07_snds_F", "Stun Pistol", 2000, 650 },
-			{ "hgun_P07_F", "", 7500, 1500 },
-			{ "HandGrenade_Stone", "Flashbang", 1700, -1 },
-			{ "Binocular", "", 150, -1 },
-			{ "ItemGPS", "", 100, 45 },
-			{ "ToolKit", "", 250, 75 },
-			{ "muzzle_snds_L", "", 650, -1 },
 			//{ "FirstAidKit", "", 150, 65 },
 			//{ "Medikit", "", 1000, 450 },
-			{ "cse_morphine", "Autoinjektor: Morphine", 50, 25 },
-			{ "cse_bandage_basic", "Einfache Bandage", 50, 25 },
-			{ "NVGoggles", "", 2000, 980 },
-			{ "16Rnd_9x21_Mag", "", 50, -1 },
-			{ "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 125, -1 },
 			{ "tf_anprc152", "AN/PRC152 5km", 250, 120 },
 	//		{ "tf_anprc148jem", "AM/PRC148jem 5km", 250, 120 },
 	//		{ "tf_fadak", "FADAK 5km", 250, 120 },
-			{ "tf_anarc210", "AN/ARC120 40km", 1000, 500 },
+			{ "tf_anarc210", "AN/ARC120 40km", 1000, 500 }
 	//		{ "tf_anarc164", "AN/ARC164 40km", 1000, 500 },
 	//		{ "tf_mr6000l", "MR6000L 40km", 1000, 500 }
         };
