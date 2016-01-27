@@ -209,7 +209,6 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-<<<<<<< HEAD
 			{ "Binocular", "", 150 },
 			{ "ItemGPS", "", 100 },
 			{ "ToolKit", "", 250 },
