@@ -150,7 +150,6 @@ class VirtualShops {
 */
 class VirtualItems {
     //Virtual Items
-	*/
     //Misc
     class pickaxe {
         variable = "pickaxe";
