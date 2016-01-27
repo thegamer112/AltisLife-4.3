@@ -133,7 +133,7 @@ class VirtualShops {
         side = "cop";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "donuts", "coffee", "spikeStrip", "waterBottle", "rabbit", "apple", "redgull", "fuelFull", "defusekit" };
+        items[] = { "donuts", "coffee", "spikeStrip", "waterBottle", "rabbit", "apple", "redgull", "fuelFull", "defusekit","cse_bandage_basic" };
     };
 };
 
@@ -150,6 +150,17 @@ class VirtualShops {
 */
 class VirtualItems {
     //Virtual Items
+	//Medical Items
+    class cse_bandage_basic {
+        variable = "cse_bandage_basic";
+        displayName = "Einfache Bandage";
+        weight = 1;
+        buyPrice = 50;
+        sellPrice = 25;
+        illegal = false;
+        edible = -1;
+        icon = "";
+    };	
 
     //Misc
     class pickaxe {
