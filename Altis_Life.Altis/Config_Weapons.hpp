@@ -225,6 +225,7 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
+			{ "cse_bandage_basic", "Einfache Bandage", 50, 25 },
             { "ItemGPS", "", 100, 45 },
             { "Binocular", "", 150, -1 },
             { "ToolKit", "", 250, 75 },
