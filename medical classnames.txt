@@ -1,0 +1,26 @@
+Combat Medical System
+cse_bandage_basic
+cse_packing_bandage
+cse_tourniquet
+cse_splint
+cse_morphine
+cse_atropine
+cse_epinephrine
+cse_plasma_iv
+cse_plasma_iv_500
+cse_plasma_iv_250
+cse_blood_iv
+cse_blood_iv_500
+cse_blood_iv_250
+cse_saline_iv
+cse_saline_iv_500
+cse_saline_iv_250
+cse_quikclot
+cse_nasopharyngeal_tube
+cse_opa
+cse_bandageElastic
+cse_liquidSkin
+cse_chestseal
+cse_personal_aid_kit
+cse_surgical_kit
+cse_itemBodyBag
