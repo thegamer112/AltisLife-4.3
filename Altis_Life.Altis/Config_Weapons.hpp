@@ -234,8 +234,6 @@ class WeaponShops {
 			{ "cse_morphine", "Autoinjektor: Morphine", 50, 25 },
 			{ "cse_bandage_basic", "Einfache Bandage", 50, 25 },			
             { "NVGoggles", "", 2000, 980 },
-			//{ "FirstAidKit", "", 150, 65 },
-			//{ "Medikit", "", 1000, 450 },
 			{ "tf_anprc152", "AN/PRC152 5km", 250, 120 },
 	//		{ "tf_anprc148jem", "AM/PRC148jem 5km", 250, 120 },
 	//		{ "tf_fadak", "FADAK 5km", 250, 120 },
@@ -252,15 +250,15 @@ class WeaponShops {
         level[] = { "life_coplevel", "SCALAR", 2, "You must be a Patrol Officer Rank!" };
         items[] = {
         { "arifle_MX_F", "", 35000, 7500 },
+		{ "30Rnd_65x39_caseless_mag", "", 130, -1 },
         { "SMG_02_ACO_F", "", 30000, -1 },
+		{ "30Rnd_9x21_Mag", "", 250, -1 },
         { "HandGrenade_Stone", "Flashbang", 1700, -1 },
         { "MineDetector", "", 1000, 500 },
         { "acc_flashlight", "", 750, 100 },
         { "optic_Holosight", "", 1200, 275 },
         { "optic_Arco", "", 2500, -1 },
-        { "muzzle_snds_H", "", 2750, -1 },
-        { "30Rnd_65x39_caseless_mag", "", 130, -1 },
-        { "30Rnd_9x21_Mag", "", 250, -1 }
+        { "muzzle_snds_H", "", 2750, -1 }
         };
     };
 
@@ -271,14 +269,14 @@ class WeaponShops {
         level[] = { "life_coplevel", "SCALAR", 3, "You must be a Sergeant Rank!" };
         items[] = {
             { "SMG_02_ACO_F", "", 15000, -1 },
+            { "30Rnd_65x39_caseless_mag", "", 100, -1 },
+            { "30Rnd_9x21_Mag", "", 60, -1 },
             { "hgun_ACPC2_F", "", 17500, -1 },
+            { "9Rnd_45ACP_Mag", "", 200, -1 },
             { "HandGrenade_Stone", "Flashbang", 1700, -1 },
             { "arifle_MXC_F", "", 30000, 5000 },
             { "optic_Arco", "", 2500, -1 },
-            { "muzzle_snds_H", "", 2750, -1 },
-            { "30Rnd_65x39_caseless_mag", "", 100, -1 },
-            { "30Rnd_9x21_Mag", "", 60, -1 },
-            { "9Rnd_45ACP_Mag", "", 200, -1 }
+            { "muzzle_snds_H", "", 2750, -1 }
         };
     };
 
