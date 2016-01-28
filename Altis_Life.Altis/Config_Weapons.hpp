@@ -221,12 +221,16 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "DDOPP_X26", "Taser x26 Gelb", 500, 250 },
-			{ "DDOPP_X26_b", "Taser x26 Schwarz", 500, 250 },
-			{ "DDOPP_1Rnd_X26", "Taser x26 Cartridge", 50, 25 },
+            { "arifle_sdar_F", "Taser Rifle", 20000, 7500 },
+			{ "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 125, -1 },
+            { "hgun_P07_snds_F", "Stun Pistol", 2000, 650 },
+			{ "16Rnd_9x21_Mag", "Stun Gun Magazine", 50, -1 },
+            { "hgun_P07_F", "", 7500, 1500 },
+            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
             { "Binocular", "", 150, -1 },
             { "ItemGPS", "", 100, 45 },
             { "ToolKit", "", 250, 75 },
+            { "muzzle_snds_L", "", 650, -1 },
 			{ "cse_morphine", "Autoinjektor: Morphine", 50, 25 },
 			{ "cse_bandage_basic", "Einfache Bandage", 50, 25 },			
             { "NVGoggles", "", 2000, 980 },
@@ -247,19 +251,16 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 2, "You must be a Patrol Officer Rank!" };
         items[] = {
-		{ "DDOPP_X3", "Taser x3 Gelb", 1000, 250 },
-		{ "DDOPP_X3_b", "Taser x3 Schwarz", 1000, 250 },
-		{ "DDOPP_3Rnd_X3", "Taser x3 Cartridge", 100, 25 },
         { "arifle_MX_F", "", 35000, 7500 },
-		{ "30Rnd_65x39_caseless_mag", "", 130, -1 },
         { "SMG_02_ACO_F", "", 30000, -1 },
-		{ "30Rnd_9x21_Mag", "", 250, -1 },
         { "HandGrenade_Stone", "Flashbang", 1700, -1 },
         { "MineDetector", "", 1000, 500 },
         { "acc_flashlight", "", 750, 100 },
         { "optic_Holosight", "", 1200, 275 },
         { "optic_Arco", "", 2500, -1 },
-        { "muzzle_snds_H", "", 2750, -1 }
+        { "muzzle_snds_H", "", 2750, -1 },
+        { "30Rnd_65x39_caseless_mag", "", 130, -1 },
+        { "30Rnd_9x21_Mag", "", 250, -1 }
         };
     };
 
@@ -270,14 +271,14 @@ class WeaponShops {
         level[] = { "life_coplevel", "SCALAR", 3, "You must be a Sergeant Rank!" };
         items[] = {
             { "SMG_02_ACO_F", "", 15000, -1 },
-            { "30Rnd_65x39_caseless_mag", "", 100, -1 },
-            { "30Rnd_9x21_Mag", "", 60, -1 },
             { "hgun_ACPC2_F", "", 17500, -1 },
-            { "9Rnd_45ACP_Mag", "", 200, -1 },
             { "HandGrenade_Stone", "Flashbang", 1700, -1 },
             { "arifle_MXC_F", "", 30000, 5000 },
             { "optic_Arco", "", 2500, -1 },
-            { "muzzle_snds_H", "", 2750, -1 }
+            { "muzzle_snds_H", "", 2750, -1 },
+            { "30Rnd_65x39_caseless_mag", "", 100, -1 },
+            { "30Rnd_9x21_Mag", "", 60, -1 },
+            { "9Rnd_45ACP_Mag", "", 200, -1 }
         };
     };
 
