@@ -5,6 +5,7 @@
 	
 	Description:
 	Master config for a thing that will be gone eventually..
+	Bedeutung: 2503/2513/2514???
 */
 private["_shop"];
 _shop = [_this,0,"",[""]] call BIS_fnc_param;
