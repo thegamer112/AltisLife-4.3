@@ -29,6 +29,8 @@ class WeaponShops {
 			{ "6Rnd_45ACP_Cylinder", "", 50},
 			{ "hgun_Pistol_heavy_01_F", "", 15300},
 			{ "11Rnd_45ACP_Mag", "", 150},
+			{ "optic_ACO_grn_smg", "", 2500, 250 },
+            { "V_Rangemaster_belt", "", 4900, -1 },
 			{ "cse_bandage_basic", "Einfache Bandage", 50, 25 }
          
         //SMG's
@@ -118,6 +120,12 @@ class WeaponShops {
         { "srifle_DMR_04_tan_F", "", 345000},
         { "10Rnd_127x54_Mag", "", 750},
 		
+		//Attachments
+		{ "optic_ACO_grn", "", 3500, 350 },
+        { "optic_Holosight", "", 3600, 275 },
+        { "acc_flashlight", "", 1000, 100 },
+        { "optic_Hamr", "", 7500, -1 }
+		
 		// He Grenades
         //{ "1Rnd_HE_Grenade_shell", "", 1250},
         //{ "3Rnd_HE_Grenade_shell", "", 2500},
@@ -140,7 +148,7 @@ class WeaponShops {
         //{ "UGL_FlareGreen_F", "", 250},
         //{ "UGL_FlareYellow_F", "", 250},
         //{ "UGL_FlareRed_F", "", 250},
-        //{ "UGL_FlareCIR_F", "", 250},
+     ,   //{ "UGL_FlareCIR_F", "", 250},
         //{ "3Rnd_UGL_FlareWhite_F", "", 500},
         //{ "3Rnd_UGL_FlareGreen_F", "", 500},
         //{ "3Rnd_UGL_FlareYellow_F", "", 500},
