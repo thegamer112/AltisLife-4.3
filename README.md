@@ -10,8 +10,9 @@ To play on our Server please use Arma3Sync:
 	- Profit!   
 
 Added features:   
-
-
+	+ "Show ID" Playeraction  
+	+ Install CSE (Combat Space Enhancement)  
+	
 Changes from the Original 4.3 Altis:  
 	+ Sorted Gun Shops  
 
@@ -19,8 +20,8 @@ Changes from the Original 4.3 Altis:
   
 Planned Stuff:  
 	+ Edit Server Rules / Briefing etc  
-	+ "Show ID" Playeraction  
-	+ Install CSE (Combat Space Enhancement)  
+
+	 
    
 Visit us:           http://www.locxserv.de  
 Teamspeak³ Server:  locxserv.de     
