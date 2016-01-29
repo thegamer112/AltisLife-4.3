@@ -187,7 +187,7 @@ class WeaponShops {
     //Basic Shops
     class genstore {
         name = "Altis General Store";
-        side = "civ";
+        side = "";
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {

@@ -10,7 +10,7 @@ class VirtualShops {
     //Virtual Shops
     class market {
         name = "STR_Shops_Market";
-        side = "civ";
+        side = "";
         license = "";
         level[] = { "", "", -1, "" };
         items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "boltcutter", "storagesmall", "storagebig" };
@@ -34,7 +34,7 @@ class VirtualShops {
 
     class wongs {
         name = "STR_Shops_Wongs";
-        side = "civ";
+        side = "";
         license = "";
         level[] = { "", "", -1, "" };
         items[] = { "turtle_soup", "turtle_raw" };
@@ -42,7 +42,7 @@ class VirtualShops {
 
     class coffee {
         name = "STR_Shops_Coffee";
-        side = "civ";
+        side = "";
         license = "";
         level[] = { "", "", -1, "" };
         items[] = { "coffee", "donuts" };
