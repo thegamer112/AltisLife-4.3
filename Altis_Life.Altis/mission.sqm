@@ -150,7 +150,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_16";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 16";
+					description="WhiteListed - Adminslot 1";
 				};
 				class Item1
 				{
@@ -163,7 +163,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_17";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 1";
+					description="WhiteListed - Adminslot 2";
 				};
 				class Item2
 				{
